@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Desafio C3C</h1>
+    <div class="container">
+
+        <div class="center">
+            <h1>Triangulo</h1>
+            <form >
+                <div class="txt_field">
+                    <input type="text" placeholder="Primeiro Lado" id="inputTriangulo1">
+                </div>
+                <div class="txt_field">
+                    <input type="text" placeholder="segundo Lado" id="inputTriangulo2" >
+                </div>
+                <div class="txt_field">
+                    <input type="text" placeholder="Terceiro Lado"  id="inputTriangulo3">
+                </div>
+                <input type="submit" value="Calcular" onclick="validarInputsTriangulo()">
+            </form>
+        </div>
+        <div class="center">
+            <h1>Bhaskara</h1>
+            <form >
+                <div class="txt_field">
+                    <input type="text" placeholder=" Digite Ax2" id="inputBhaskara1">
+                </div>
+                <div class="txt_field">
+                    <input type="text" placeholder="Digite Bx" id="inputBhaskara2">
+                </div>
+                <div class="txt_field">
+                    <input type="text" placeholder=" Digite C" id="inputBhaskara3">
+                </div>
+                <input type="submit" value="Calcular" onclick="validarInputsBhaskara()">
+            </form>
+        </div>
+        <div class="center">
+            <h1>Nota</h1>
+            <form >
+                <div class="txt_field">
+                    <input type="text" placeholder="Digite Nota..." id="inputNota">
+                </div>
+               
+                <input type="submit" value="Mostrar Nota" onclick="validarInputsNota()">
+            </form>
+        </div>
+        <div class="center">
+            <h1>Lista Luidy Moura</h1>
+            <form >
+                <div class="txt_field">
+                    <input type="text" placeholder="Digite Numero..." id="inputLista">
+                </div>
+            
+
+                <input type="submit" value="Criar lista" onclick="validarInputsLista()">
+            </form>
+        </div>
+    </div>
+        
+    <script src="questao1.js"></script>
+    <script src="questao2.js"></script>
+    <script src="questao3.js"></script>
+    <script src="questao4.js"></script>
+</body>
+</html>
